@@ -1,0 +1,133 @@
+table.woop-table {
+	background: #fff;
+	border-collapse: collapse;
+	border: 5px solid #fff;
+	box-shadow: 0 1px 1px rgba(0,0,0,0.3);
+}
+
+table.woop-table th,
+table.woop-table td {
+	padding: 8px 10px;
+	border: none;
+}
+
+table.woop-table th {
+	background: #ffffff;
+	color: #32373c;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-bottom: 1px solid #ccd0d4;
+	border-top: 1px solid #ccd0d4;
+}
+
+table.woop-table th.woop-col:not([data-sort-method="none"]) {
+	color: #0073aa;
+	font-weight: 400;
+}
+
+table.woop-table th.woop-col:not([data-sort-method="none"]):hover {
+	color: #00a0d2;
+}
+
+table.woop-table th:last-child {
+	border-right: none;
+}
+
+table.woop-table tbody tr:nth-child(even) {
+	background: #fbfbfb;
+}
+
+table.woop-table td {
+	vertical-align: top;
+	border-right: 1px solid #efefef;
+}
+
+table.woop-table td:last-child {
+	border-right: none;
+}
+
+table.woop-table .order-status {
+	margin: 0;
+}
+
+ul.woop-list {
+	margin: 0;
+	list-style: none;
+}
+
+ul.woop-list li {
+	margin: 0 0 5px;
+}
+
+ul.woop-list li:last-child {
+	margin-bottom: 0;
+}
+
+
+/* Tablesort styles */
+table.woop-table th[role=columnheader]:not(.no-sort) {
+	cursor: pointer;
+}
+
+table.woop-table th[role=columnheader]:not(.no-sort):after {
+	content: '';
+	float: right;
+	margin-top: 7px;
+	border-width: 0 4px 4px;
+	border-style: solid;
+	visibility: hidden;
+	opacity: 0;
+	-ms-user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	user-select: none;
+}
+
+table.woop-table th[aria-sort=ascending]:not(.no-sort):after {
+	border-bottom: none;
+	border-width: 4px 4px 0;
+}
+
+table.woop-table th[aria-sort]:not(.no-sort):after {
+	visibility: visible;
+	opacity: 1;
+}
+
+table.woop-table th[role=columnheader]:not(.no-sort):hover:after {
+	visibility: visible;
+	opacity: 1;
+}
+
+
+/* User entry table specifically */
+table.woop-user-entries .woop-col-id {
+	width: 80px;
+}
+
+table.woop-user-entries .woop-col-date {
+	width: 150px;
+}
+
+table.woop-user-entries table.woop-fields-table {
+	table-layout: fixed;
+	width: 360px;
+	padding: 5px 0;
+}
+
+table.woop-user-entries table.woop-fields-table td {
+	padding: 2px 5px;
+	font-size: 12px;
+
+	width: 150px;
+}
+
+table.woop-user-entries table.woop-fields-table td.woop-field__label {
+	text-align: right;
+}
+
+table.woop-user-entries table.woop-fields-table td.woop-field__value {
+}
+
+table.woop-user-entries table.woop-fields-table tr {
+	background: none;
+}
