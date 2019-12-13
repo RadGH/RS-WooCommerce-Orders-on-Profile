@@ -8,7 +8,7 @@ _Displays a user's WooCommerce orders on their user profile, inside a table._
     Tags: woocommerce, emails, debugging
     Requires at least: 4.9
     Tested up to: 5.3.1
-    Stable tag: 1.0.0
+    Stable tag: 1.1.3
     License: GPLv3
     License URI: http://www.gnu.org/licenses/gpl-3.0.txt
 
