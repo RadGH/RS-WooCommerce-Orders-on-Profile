@@ -2,7 +2,7 @@
 /*
 Plugin Name: RS WooCommerce Orders On Profile
 Description: Displays a user's WooCommerce orders on their user profile, inside a table.
-Version:     1.1.3
+Version:     1.1.4
 Author:      Radley Sustaire
 Author URI:  http://radleysustaire.com/
 */
@@ -10,7 +10,7 @@ Author URI:  http://radleysustaire.com/
 if ( ! defined( 'ABSPATH' ) ) exit;
 
 define( 'RS_WOOP_URL', untrailingslashit( plugin_dir_url( __FILE__ ) ) );
-define( 'RS_WOOP_VERSION', '1.1.3' );
+define( 'RS_WOOP_VERSION', '1.1.4' );
 
 add_action( 'plugins_loaded', 'woop_init_plugin' );
 
