@@ -1,6 +1,6 @@
 jQuery(function() {
 
-	jQuery('table.woop-sort-table').each(function() {
+	jQuery('table.woop-table').each(function() {
 		new Tablesort( this );
 	});
 

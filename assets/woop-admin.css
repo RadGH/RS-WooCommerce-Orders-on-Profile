@@ -65,6 +65,11 @@ ul.woop-list li:last-child {
 
 
 /* Tablesort styles */
+table.woop-table th[role=columnheader] span {
+	display: inline-block;
+	padding-right: 5px;
+}
+
 table.woop-table th[role=columnheader]:not(.no-sort) {
 	cursor: pointer;
 }
@@ -81,6 +86,8 @@ table.woop-table th[role=columnheader]:not(.no-sort):after {
 	-webkit-user-select: none;
 	-moz-user-select: none;
 	user-select: none;
+	border-right-color: transparent;
+	border-left-color: transparent;
 }
 
 table.woop-table th[aria-sort=ascending]:not(.no-sort):after {
